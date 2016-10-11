@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 html, body {
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Josefin Slab', serif;
   font-size: 20px;
   height: 100%;
   margin: 0;
@@ -33,4 +33,19 @@ main {
   border-radius: 50%; /* Bordo Redondeado */
   height: 200px;
   width: 200px;
+}
+
+#informacion > a > img {
+  height: 60px;
+  width: 60px;
+}
+
+#informacion > a > img:hover, #flecha > a > img:hover {
+  opacity: 0.5;
+}
+
+#flecha > a > img {
+  height: 50px;
+  width: 50px;
+  margin: 30px;
 }
