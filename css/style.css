@@ -1,4 +1,4 @@
-* {box-sizing: border-box; }
+* { box-sizing: border-box; }
 
 html, body {
   font-family: 'Architects Daughter', cursive;
@@ -19,4 +19,18 @@ main {
   padding: 50px 30px;
   text-align: center;
   width: 100%;
+}
+
+#intro {
+  background-color: #009c41;
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#intro > img {
+  border-radius: 50%; /* Bordo Redondeado */
+  height: 200px;
+  width: 200px;
 }
