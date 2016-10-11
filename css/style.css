@@ -1,4 +1,26 @@
+* {box-sizing: border-box; }
+
 html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  /*background: none repeat scroll 0 0 blue;*/
+  min-height: 100%;
+  text-align: center;
+}
+
+.center {
+  display: inline-block;
+  padding: 10px 15px;
+  vertical-align: middle;
+  width: 100%;
 }
