@@ -47,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-.content {
+.contenedor {
   min-height: 100%;
   padding: 70px 30px;
   text-align: center;
@@ -81,4 +81,13 @@ a {
   height: 50px;
   width: 50px;
   margin: 30px;
+}
+
+.contenido {
+  padding: 50px 0;
+}
+
+#contacto {
+  background-color: #34495e;
+  color: white;
 }
