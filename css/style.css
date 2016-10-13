@@ -54,6 +54,12 @@ a {
   width: 100%;
 }
 
+.contenido {
+  padding: 50px 0;
+}
+
+/* Intro */
+
 #intro {
   background-color: #009c41;
   background-image: url(../img/fondo.jpg);
@@ -68,14 +74,12 @@ a {
   width: 200px;
 }
 
-#informacion > a > img {
+#informacion > a > img, #contacto a > img {
   height: 60px;
   width: 60px;
 }
 
-#informacion > a > img:hover, #flecha > a > img:hover {
-  opacity: 0.5;
-}
+#informacion > a > img:hover, #flecha > a > img:hover { opacity: 0.5; }
 
 #flecha > a > img {
   height: 50px;
@@ -83,11 +87,26 @@ a {
   margin: 30px;
 }
 
-.contenido {
-  padding: 50px 0;
-}
+/* Contacto */
 
 #contacto {
   background-color: #34495e;
   color: white;
+}
+
+#contacto input, #contacto textarea {
+  border: solid 5px white;
+  background: white;
+  font-family: 'Josefin Slab', serif;
+  font-size: 18px;
+  width: 80%;
+  margin: 5px;
+}
+
+#contacto button {
+  border: solid 10px white;
+  background: white;
+  font-family: 'Josefin Slab', serif;
+  font-size: 15px;
+  font-weight: bold;
 }
