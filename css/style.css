@@ -121,6 +121,20 @@ a {
   width: 25%;
 }
 
-.portafolio > img {
-  width: 100%;
+.portafolio  img {
+  width: 80%;
+}
+
+.lista {
+  display: inline-block;
+  width: 25%;
+  padding: 10px;
+}
+
+.lista img {
+  width: 50px;
+}
+
+.lista ul {
+  list-style: none;
 }
