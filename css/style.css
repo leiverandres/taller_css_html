@@ -43,7 +43,8 @@ nav > ul > li:hover {
 }
 
 a {
-  color: inherit;
+  color: orange;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -109,4 +110,17 @@ a {
   font-family: 'Josefin Slab', serif;
   font-size: 15px;
   font-weight: bold;
+}
+
+.portafolio {
+  background: orange;
+  display: inline-block;
+  height: auto;
+  min-height: 200px;
+  padding: 10px;
+  width: 25%;
+}
+
+.portafolio > img {
+  width: 100%;
 }
