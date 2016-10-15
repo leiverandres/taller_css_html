@@ -138,3 +138,15 @@ a {
 .lista ul {
   list-style: none;
 }
+
+#cv > a > button {
+  padding: 5px;
+  border: solid 1px white;
+}
+
+#cv > a > button:hover {
+  background: orange;
+  color: white;
+  padding: 5px;
+  border: solid 1px orange;
+}
